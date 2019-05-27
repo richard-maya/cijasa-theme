@@ -59,7 +59,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/locales">Locales</a>
+                <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/locales-en-venta">Locales</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/servicios">Servicios</a>

@@ -45,7 +45,7 @@
                 <p><small>&copy; <?php echo date('Y'); ?> CIJARSA. Todos los derechos reservados.</small></p>
             </div>
             <div class="col-12 col-md-6 text-right">
-                <a href="https://www.cijarsa.com.mx/assets/AVISO-DE-PRIVACIDAD-CIJARSA.pdf" target="_blank">
+                <a href="https://www.cijarsa.com.mx/AVISO-DE-PRIVACIDAD-CIJARSA.pdf" target="_blank">
                     <small>Aviso de Privacidad</small>
                 </a>
             </div>

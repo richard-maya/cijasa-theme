@@ -127,7 +127,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-1-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_1'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_1'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_1'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -145,7 +145,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-2-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_2'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_2'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_2'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -163,7 +163,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-3-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_3'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_3'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_3'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -191,7 +191,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-4-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_4'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_4'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_4'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -209,7 +209,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-5-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_5'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_5'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_5'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -227,7 +227,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-6-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_6'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_6'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_6'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -245,7 +245,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-7-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_7'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_7'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_7'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -263,7 +263,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-8-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_8'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_8'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_8'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -281,7 +281,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-9-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_9'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_9'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_9'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -299,7 +299,7 @@
                                                 <div class="col-12 col-sm-6 col-md-4 mb-4">
                                                     <div class="card px-2 py-2">
                                                         <a href="#" data-toggle="modal" data-target="#desarrollo-10-modal">
-                                                            <img src="<?php the_field('imagen_desarrollo_10'); ?>" class="card-img-top" alt="san-valentin-zinacantepec">
+                                                            <img src="<?php the_field('imagen_desarrollo_10'); ?>" class="card-img-top" alt="<?php the_field('nombre_desarrollo_10'); ?>">
                                                         </a>
                                                         <div class="card-body text-center">
                                                             <div class="green-divider mb-2"></div>
@@ -847,7 +847,7 @@ $('#myTab a').on('click', function (e) {
                     <p><?php esc_html_e( 'Lo sentimos, el formulario no funciona correctamente.' ); ?></p>
                 <?php endif; ?>
 
-                <p class="text-center"><small>Al enviarnos un mensaje aceptas nuestros <a href="https://www.cijarsa.com.mx/assets/AVISO-DE-PRIVACIDAD-CIJARSA.pdf" target="_blank" rel="external" class="green-text">términos y condiciones.</a></small></p>
+                <p class="text-center"><small>Al enviarnos un mensaje aceptas nuestros <a href="https://www.cijarsa.com.mx/AVISO-DE-PRIVACIDAD-CIJARSA.pdf" target="_blank" rel="external" class="green-text">términos y condiciones.</a></small></p>
             </div>
         </div>
     </div>
