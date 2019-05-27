@@ -41,10 +41,10 @@
     </button>
     <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item" id="inicio-nav-link">
                 <a class="nav-link" href="<?php echo esc_url(home_url()); ?>">Cijarsa</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="desarrollos-nav-link">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Desarrollos
@@ -52,20 +52,20 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/san-valentin">San Valentín</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/buen-suceso">El Buen Suceso</a>
-                    <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/hesperides">Las Hespérides</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/buena-ventura">Buena Ventura</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/porvenir-1">El Porvenir I</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/porvenir-2">El Porvenir II</a>
+                    <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/hesperides">Las Hespérides</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="locales-nav-link">
                 <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/locales-en-venta">Locales</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="servicios-nav-link">
                 <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/servicios">Servicios</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/atencion">Atención de Garantías</a>
+            <li class="nav-item" id="atencion-nav-link">
+                <a class="nav-link" href="<?php echo esc_url(get_template_directory_uri()); ?>/atencion-de-garantias">Atención de Garantías</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo esc_url(home_url()); ?>#contacto">Contacto</a>
@@ -73,3 +73,41 @@
         </ul>
     </div>
 </nav>
+
+
+<script type="text/javascript">
+    var link = document.location.pathname;
+
+    if(link.includes("/locales")){
+        var seccion = "locales";
+    } else if (link.includes("/san-valentin") || link.includes("/buen-suceso") || link.includes("/hesperides") || link.includes("/buena-ventura") || link.includes("/porvenir")) {
+        var seccion = "desarrollos";
+    } else if (link.includes("servicios")) {
+        var seccion = "servicios";
+    } else if (link.includes("atencion")) {
+        var seccion = "atencion";
+    } else {
+        var seccion = "inicio";
+    }
+
+    switch(seccion) {
+        case "inicio":
+            document.getElementById("inicio-nav-link").classList.add("active");
+            break;
+        case "desarrollos":
+            document.getElementById("desarrollos-nav-link").classList.add("active");
+            break;
+        case "locales":
+            document.getElementById("locales-nav-link").classList.add("active");
+            break;
+        case "servicios":
+            document.getElementById("servicios-nav-link").classList.add("active");
+            break;
+        case "atencion":
+            document.getElementById("atencion-nav-link").classList.add("active");
+            break;
+        default:
+            document.getElementById("inicio-nav-link").classList.add("active");
+            break;
+    }
+</script>

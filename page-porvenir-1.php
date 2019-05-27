@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: El Porvenir 2
+* Template Name: El Porvenir 1
 */  get_header(); ?>
 
 <main>

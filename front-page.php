@@ -832,7 +832,7 @@ $('#myTab a').on('click', function (e) {
 
 <!-- CONTACT FORM
 ================================================== -->
-<section class="contact-form pt-5" id="contact-form">
+<section class="contact-form pt-5" id="contacto">
     <div class="container">
         <div class="row justify-content-center text-center mb-4">
             <h3>¡CONTÁCTANOS!</h3>
