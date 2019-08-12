@@ -11,7 +11,15 @@
 
     <!-- FAVICONS
     ================================================== -->
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cijarsa.com.mx/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cijarsa.com.mx/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cijarsa.com.mx/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://cijarsa.com.mx/favicons/site.webmanifest">
+    <link rel="mask-icon" href="https://cijarsa.com.mx/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://cijarsa.com.mx/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://cijarsa.com.mx/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- GOOGLE TAG MANAGER
     ================================================== -->
