@@ -11,21 +11,22 @@
                 <h1 class="d-none">ATENCIÓN AL CLIENTE</h1>
                 <h3 class="text-center blue-text"><?php the_field('titulo'); ?></h3>
                 <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <h6 class="text-danger text-center"><?php the_field('subtitulo'); ?></h6>
+                        <p><?php the_field('texto'); ?>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
                         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <?php the_content(); ?>
                         <?php endwhile; else : ?>
                         <p><?php esc_html_e( 'Lo sentimos, el formulario no funciona correctamente.' ); ?></p>
                         <?php endif; ?>
+                        <h5 class="text-center blue-text mt-3"><?php the_field('firma'); ?></h5>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <h6 class="text-danger text-center"><?php the_field('subtitulo'); ?></h6>
-                <p><?php the_field('texto'); ?>
-                <h5 class="text-center blue-text"><?php the_field('firma'); ?></h5>
             </div>
         </div>
     </div>

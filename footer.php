@@ -50,6 +50,9 @@
                 </a>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <p><small><a href="https://iconica.mx" title="diseño-de-páginas-web" target="_blank" rel="author">Sitio web desarrollado por Iconica Studio</a>. <a href="https://iconica.mx" title="diseño-de-páginas-web" target="_blank" rel="author" class="d-none">diseño de páginas web</a></small></p>
+        </div>
     </div>
 </footer>
 </section>

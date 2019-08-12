@@ -52,10 +52,10 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/san-valentin">San Valentín</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/buen-suceso">El Buen Suceso</a>
-                    <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/buena-ventura">Buena Ventura</a>
+                    <!-- <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/buena-ventura">Buena Ventura</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/porvenir-1">El Porvenir I</a>
                     <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/porvenir-2">El Porvenir II</a>
-                    <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/hesperides">Las Hespérides</a>
+                    <a class="dropdown-item" href="<?php echo esc_url(get_template_directory_uri()); ?>/hesperides">Las Hespérides</a> -->
                 </div>
             </li>
             <li class="nav-item" id="locales-nav-link">
