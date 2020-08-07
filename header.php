@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="mx">
+<html lang="es-MX">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta name="bingbot" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <meta name="copyright" content="Copyright © 2019 Iconica Studio">
+    <meta name="copyright" content="Copyright © 2020 Iconica Studio">
 
     <!-- FAVICONS
     ================================================== -->
@@ -20,10 +20,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="https://cijarsa.com.mx/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
-    <!-- GOOGLE TAG MANAGER
-    ================================================== -->
-
     
     <!-- SITE TITLE
     ================================================== -->
@@ -38,6 +34,10 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<a href="https://wa.me/5217227079614" class="whatsapp-logo" target="_blank">
+    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/whatsapp-logo.png" alt="cijarsa-whatsapp" height="60px" width="auto">
+</a>
+
 <!-- NAVBAR
 ================================================== -->
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar-intro">
